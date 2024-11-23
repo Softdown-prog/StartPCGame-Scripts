@@ -1,0 +1,99 @@
+{
+  "qualitySettings": [
+    {
+      "enabled": true,
+      "upscaleFilter": "EdgeAdaptiveScaling",
+      "minScale": 0.5,
+      "@type": "Game.Settings.DynamicResolutionScaleSettings"
+    },
+    {
+      "antiAliasingMethod": "None",
+      "smaaQuality": "Low",
+      "outlinesMSAA": "None",
+      "@type": "Game.Settings.AntiAliasingQualitySettings"
+    },
+    {
+      "volumetricCloudsEnabled": false,
+      "distanceCloudsEnabled": false,
+      "volumetricCloudsShadows": false,
+      "distanceCloudsShadows": false,
+      "@type": "Game.Settings.CloudsQualitySettings"
+    },
+    {
+      "enabled": false,
+      "@type": "Game.Settings.FogQualitySettings"
+    },
+    {
+      "enabled": false,
+      "budget": 0.166,
+      "resolutionDepthRatio": 0.666,
+      "@type": "Game.Settings.VolumetricsQualitySettings"
+    },
+    {
+      "enabled": false,
+      "@type": "Game.Settings.SSAOQualitySettings"
+    },
+    {
+      "enabled": false,
+      "raySteps": 16,
+      "denoiserRadius": 0.75,
+      "halfResolutionPass": true,
+      "@type": "Game.Settings.SSGIQualitySettings"
+    },
+    {
+      "enabled": false,
+      "maxRaySteps": 32,
+      "@type": "Game.Settings.SSRQualitySettings"
+    },
+    {
+      "enabled": false,
+      "nearSampleCount": 3,
+      "nearMaxRadius": 2,
+      "farSampleCount": 4,
+      "farMaxRadius": 5,
+      "highQualityFiltering": false,
+      "@type": "Game.Settings.DepthOfFieldQualitySettings"
+    },
+    {
+      "enabled": false,
+      "@type": "Game.Settings.MotionBlurQualitySettings"
+    },
+    {
+      "enabled": false,
+      "@type": "Game.Settings.ShadowsQualitySettings"
+    },
+    {
+      "finalTessellation": 3,
+      "targetPatchSize": 24,
+      "@type": "Game.Settings.TerrainQualitySettings"
+    },
+    {
+      "waterflow": false,
+      "maxTessellationFactor": 2,
+      "@type": "Game.Settings.WaterQualitySettings"
+    },
+    {
+      "levelOfDetail": 0.25,
+      "lodCrossFade": false,
+      "maxLightCount": 1024,
+      "meshMemoryBudget": 256,
+      "strictMeshMemory": true,
+      "@type": "Game.Settings.LevelOfDetailQualitySettings"
+    },
+    {
+      "maxBoneInfuence": "TwoBones",
+      "@type": "Game.Settings.AnimationQualitySettings"
+    },
+    {
+      "mipbias": 3,
+      "filterMode": "Bilinear",
+      "@type": "Game.Settings.TextureQualitySettings"
+    }
+  ],
+  "resolution": {
+    "width": 1440,
+    "height": 900
+  },
+  "cursorMode": "Free",
+  "depthOfFieldMode": "Disabled"
+}
